@@ -13,6 +13,7 @@ int minCostPath(const vector<vector<int>>& grid) {
 
     // Инициализируем значение верхнего левого угла
     dp[0][0] = grid[0][0];
+    
 
     // Заполняем первый столбец
     for (int i = 1; i < n; ++i) {
